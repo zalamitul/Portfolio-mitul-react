@@ -19,7 +19,7 @@ class Services extends Component {
                     <div class="scart">
                         <img src={require("../images/software.png")} alt="logo" width="300px"/>
                             <h3>Software Design</h3>
-                            <p>I develop Frontend websites and web application solutions while maintaining a focus on user experience, responsive design, creativity and growth. So, if you’re just getting started and need a simple website to get your business online, I can help you to devlop website that can bring your vision to life.</p>
+                            <p>I can develop software and web application with good and optimized solutions while maintaining a focus on user experience, responsive design, creativity and growth. So, if you’re just getting started and need software to get your business online, I can help you to devlop software that can bring your vision to life.</p>
                     </div>
 
                     
