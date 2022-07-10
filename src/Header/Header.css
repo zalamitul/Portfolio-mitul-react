@@ -1,0 +1,102 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo', sans-serif;
+    /* border: 1px solid red; */
+}
+.logo img{
+    width: 5em;
+    margin: 10px 0px 0px 10px ;
+}
+span img{
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    width: 17px;
+    text-align: center;
+    /* margin-right: 3px; */
+    margin-bottom: 3px;
+}
+.nav {
+    position: relative;
+    top:  0;
+    background-color: black;
+    display: flex;
+    z-index: 2;
+    justify-content: space-between;
+}
+
+.nav ul {
+    align-items: center;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+    z-index: 3;
+    opacity: 1;
+    overflow: auto;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.nav a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.nav ul li:hover {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    /* text-decoration: none; */
+}
+
+
+.nav ul li {
+    display: flex;
+    border-radius: 10px;
+    height: 25px;
+    width: auto;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    padding: 5px 15px 5px 15px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.2s ease-in;
+}
+
+@media only screen and (max-width: 820px) {
+    .nav{
+        color: #000000;
+        position: sticky;
+        background:rgba(231, 223, 223, 0.817);
+        top: 0;
+    }
+    .nav ul {
+        position: absolute;
+        display: none;
+        width: 100%;
+        top: 54px;
+        color: black;
+        background-color: rgba(231, 223, 223, 0.817);
+    }
+    .nav a{
+        color: #000000;
+    }
+    .linesA{
+        padding: 15px 15px 0px 0px;
+        display: block;
+        /* margin: auto; */
+    }
+}

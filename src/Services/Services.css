@@ -1,0 +1,65 @@
+line{
+    stroke:rgb(255,0,0)
+}
+
+.services {
+    height: auto;
+    background-image: url("../images/bgproject.jpg");
+    /* background: linear-gradient(to top, #ff36f2 0%, #ffffff 100%); */
+    background-attachment: fixed;
+    background-size:contain;
+}
+
+.servvicesContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin: 10px 10px;
+    margin-bottom: 0px;
+    border-radius: 12px;
+    /* padding: 1px; */
+    /* border: 1px solid rgb(79, 69, 69); */
+}
+
+.scart {
+    background-color: #fdfefe;
+    width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 1px;
+    text-align: center;
+    box-shadow: 0px 0px 6px 1px rgb(138, 138, 138);
+}
+
+.scart img {
+    width: 120px;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 2em;
+    background-color: aliceblue;
+}
+
+.scart h1 {
+    margin: 10px;
+    font-size: 30px;
+    padding: 1vw;
+}
+
+.scart p{
+    margin: 2vw 2vw;
+}
+
+.lines {
+    display: none;
+    padding: 0px 10px 0px 0px;
+}
+
+
+@media only screen and (max-width: 820px) { 
+    .title{
+        padding: 10px;
+    }
+    .scart {
+        width: 290px;
+    }
+}

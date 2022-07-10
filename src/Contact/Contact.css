@@ -1,0 +1,55 @@
+
+.ccontainer {
+    background-color: aliceblue;
+    margin: 5vw;
+    padding: 1vw 2vw;
+    border-radius: 6px;
+
+}
+
+.ccontainer h1 {
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+
+.cform {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 4vw;
+    padding-bottom: 3vw;
+}
+
+.cform input {
+    box-sizing: border-box;
+    height: 8vh;
+    border: none;
+    width: 100%;
+    background-color: #ffffff00;
+    font-size: 20px;
+    margin: 1vw;
+}
+
+input:focus {
+    outline: none;
+}
+
+#submit {
+    margin-top: 1vw;
+    margin-bottom: 0vw;
+    box-sizing: border-box;
+    width: fit-content;
+    text-transform: capitalize;
+    border-radius: 6px;
+    background-color: rgba(75, 172, 210, 0.345);
+    padding: 0px 20px;
+    transition: all 0.7s;
+}
+#submit:hover{
+    box-shadow: 1px 1px 4px 3px rgb(193, 193, 193);
+}
+
+
+@media only screen and (max-width: 820px) {
+}

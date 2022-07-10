@@ -1,0 +1,63 @@
+.home {
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to top, #000000 29%, #787878 100%);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 90vh;
+}
+
+.home-content {
+    height: inherit;
+    padding-left: 8vw;
+    display: table-cell;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 3vw;
+}
+
+.homeimg {
+    background-image: url("../images/me.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: inherit;
+}
+
+.home p {
+    z-index: 5;
+    font-size: 15px;
+    width: 40vw;
+}
+.CVbtn{
+    width: auto; 
+    height: auto;
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: none;
+}
+.CVbtn:hover{
+    box-shadow: 1px 1px 15px 8px rgb(109, 109, 109);
+}
+
+
+
+@media only screen and (max-width: 820px) {
+    .homeimg {
+        font-weight: 1000;
+        background-attachment: fixed;
+        background-image: url("../images/output-onlinepngtools.png");
+        /* opacity: 0.4; */
+    }
+    .title {
+        padding: 10px;
+    }
+
+    .home h2 {
+        font-size: 40px;
+    }    
+}
