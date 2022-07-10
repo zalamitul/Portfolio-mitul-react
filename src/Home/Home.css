@@ -53,6 +53,9 @@
         background-image: url("../images/output-onlinepngtools.png");
         /* opacity: 0.4; */
     }
+    .home-content h3{
+        font-size: 40px;
+    }
     .title {
         padding: 10px;
     }
