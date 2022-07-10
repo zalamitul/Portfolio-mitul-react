@@ -8,7 +8,7 @@ export default class Contact extends Component {
                 <div class="ccontainer">
                     <h1>let's talk</h1>
                     <div class="cform">
-                        <form action="mailto:zalmitul@gmail.com">
+                        <form action="https://mailto:zalmitul@gmail.com">
                             <input type="text" placeholder="Your name" id="name" name="name" required />
                             <hr />
                             <input type="email" placeholder="Email" id="email" name="email" required />
