@@ -10,7 +10,7 @@ export default class Projects extends Component {
                 <div class="projectcontainer">
                     <div class="pcart">
                         <h3>Click Game</h3>
-                        <img src={require("../images/mitul_black.png")} alt="" />
+                        <img src={require("../images/clickgame.png")} alt="" />
                         <p>It is develoed using react js. with the help of states. In this game user have click any 3 button out of 9 button to win the game in such that the sum will get greater than 10 otherwise user will lost 
                         </p>
                         <button className='pbtn'>
@@ -22,7 +22,7 @@ export default class Projects extends Component {
 
                     <div class="pcart">
                         <h3>React API call</h3>
-                        <img src={require("../images/mitul_black.png")} alt="" />
+                        <img src={require("../images/react-1-logo.png")} alt="" />
                         <p>React api call project using git hub api. It show user profile , repositary email and address </p>
                         <button className='pbtn'>
                             <a href="https://rpz91s.csb.app/" target="_blanck">
