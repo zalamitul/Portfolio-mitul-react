@@ -29,7 +29,7 @@ class Skills extends Component {
                             </h2>
                             <div class="progress-indicater">
                                 <span id='cpp' class="progress" ></span>
-                                <span class="persantage">100%</span>
+                                <span class="persantage">70%</span>
                             </div>
                         </div>
 
@@ -96,7 +96,7 @@ class Skills extends Component {
                             </h2>
                             <div class="progress-indicater">
                                 <span id='mean' class="progress"></span>
-                                <span class="persantage">100%</span>
+                                <span class="persantage">85%</span>
                             </div>
                         </div>
                     </div>
