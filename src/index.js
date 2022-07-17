@@ -9,7 +9,6 @@ import Projects from './Projects/Projects';
 import Services from './Services/Services';
 import About from './About/About';
 import Contact from './Contact/Contact';
-// import "./App.css"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -19,7 +19,48 @@ class Header extends Component {
         this.state = {
             clicked: false,
             windowWidth: 0,
-            windowHeight: 0
+            windowHeight: 0,
+            inputStyle: {
+                display: "block"
+            },
+            data: [
+                {
+                    id: "#home",
+                    name: "home",
+                    img: require("../images/home.png")
+                },
+                {
+                    id: "#academic",
+                    name: "academic",
+                    img: require("../images/academic.png")
+                },
+                {
+                    id: "#skills",
+                    name: "skills",
+                    img: require("../images/skills.png")
+                },
+                {
+                    id: "#projects",
+                    name: "projects",
+                    img: require("../images/projects.png")
+                },
+                {
+                    id: "#services",
+                    name: "services",
+                    img: require("../images/services.png")
+                },
+                {
+                    id: "#about",
+                    name: "about",
+                    img: require("../images/about.png")
+                },
+                
+                {
+                    id: "#contact",
+                    name: "contact",
+                    img: require("../images/contact.png")
+                },
+            ]
             // width:999
         };
         this.handleResize = this.handleResize.bind(this);
@@ -38,9 +79,6 @@ class Header extends Component {
         }
     };
     render() {
-        const inputStyle = {
-            display: "block"
-        };
         return <>
             <div class="nav">
                 <div class="logo">
@@ -48,62 +86,19 @@ class Header extends Component {
                         <img src={require("../images/mitul_black.png")} alt="logo" width="80px" />
                     </a>
                 </div>
-                <ul id="navul" style={this.state.clicked ? inputStyle : null} onClick={this.myClick}>
-                    <a href="#home">
-                        <li>
-                            <span>
-                                <img src={require("../images/home.png")} alt="logo" width="80px" />
-                            </span>
-                            home
-                        </li>
-                    </a>
-                    <a href="#academic">
-                        <li>
-                            <span>
-                                <img src={require("../images/academic.png")} alt="logo" width="80px" />
-                            </span>
-                            academic
-                        </li>
-                    </a>
-                    <a href="#skills">
-                        <li>
-                            <span>
-                                <img src={require("../images/skill.png")} alt="logo" width="80px" />
-                            </span>
-                            skills
-                        </li>
-                    </a>
-                    <a href="#projects">
-                        <li>
-                            <span>
-                                <img src={require("../images/project.png")} alt="logo" width="80px" />
-                            </span>
-                            projects
-                        </li>
-                    </a>
-                    <a href="#services">
-                        <li>
-                            <span>
-                                <img src={require("../images/services.png")} alt="logo" width="80px" />
-                            </span>
-                            services
-                        </li>
-                    </a>
-                    <a href="#about">
-                        <li>
-                            <span>
-                                <img src={require("../images/about.png")} alt="logo" width="80px" />
-                            </span> about
-                        </li>
-                    </a>
-                    <a href="#contact">
-                        <li>
-                            <span>
-                                <img src={require("../images/contact.png")} alt="logo" width="80px" />
-                            </span>
-                            contacts
-                        </li>
-                    </a>
+                <ul id="navul" style={this.state.clicked ? this.state.inputStyle : null} onClick={this.myClick}>
+                    {
+                        this.state.data.map(item => (
+                            <a href={item.id}>
+                                <li>
+                                    <span>
+                                        <img src={item.img} alt={item.alt} width="80px" />
+                                    </span>
+                                    {item.name}
+                                </li>
+                            </a>
+                        ))
+                    }
                 </ul>
                 <div class="linesA"
                     onClick={this.myClick}

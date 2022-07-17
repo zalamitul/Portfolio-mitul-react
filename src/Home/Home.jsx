@@ -4,6 +4,12 @@ import App from './App.jsx';
 
 export default class Home extends Component {
 
+    constructor(props){
+        super(props)
+        this.state={
+            linkOfCV:"https://drive.google.com/file/d/1yhYUkCIRQD0eMAf0RBlw9Lrwi_qmrrGZ/view?usp=sharing"
+        }
+    }
     render() {
         return (
             <div className="home" id="home">
@@ -15,9 +21,8 @@ export default class Home extends Component {
                         <h3>
                            <App/>
                         </h3>
-                        <a href="https://drive.google.com/file/d/1yhYUkCIRQD0eMAf0RBlw9Lrwi_qmrrGZ/view?usp=sharing">
-                            <button className='CVbtn'
-                                href="www.google.com">Download
+                        <a href={this.state.linkOfCV} target="_blanck">
+                            <button className='CVbtn'>Download
                                 CV
                             </button>
                         </a>
