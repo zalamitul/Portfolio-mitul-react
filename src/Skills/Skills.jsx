@@ -43,7 +43,7 @@ class Skills extends Component {
                 },
                 {
                     name: "MEAN",
-                    img: require("../images/MEAN.png"),
+                    img: require("../images/mean.png"),
                     persantage: 85 + "%"
                 },
             ]
