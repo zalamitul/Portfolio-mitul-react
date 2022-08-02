@@ -19,6 +19,12 @@ export default class Projects extends Component {
                     about: "React api call project using git hub api. It show user profile , repositary email and address ",
                     link: "https://zalamitul.github.io/react-apicall-mitul/"
                 },
+                {
+                    title: "QuestionDrop",
+                    img: require("../images/questiondrop.png"),
+                    about: "• Developed a QuestionDrop web-app using MEAN stack technology. Designed models using Mongoose for managing database and Implemented user account with authentication using ExpressJS middleware.<br>Implemented Filter by tags, Password Authentication using Bycrpt, Comments, Dynamic, APIs for displaying information like User API, Post for detail of question, etc",
+                    link: "https://github.com/zalamitul/questiondrop"
+                },
             ]
         }
     }

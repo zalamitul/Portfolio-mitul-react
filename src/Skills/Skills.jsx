@@ -9,27 +9,17 @@ class Skills extends Component {
                 {
                     name: "python",
                     img: require("../images/python.png"),
-                    persantage: 78 + "%"
+                    persantage: 65 + "%"
                 },
                 {
                     name: "c++",
                     img: require("../images/c++.png"),
-                    persantage: 70 + "%"
-                },
-                {
-                    name: "php",
-                    img: require("../images/php.png"),
-                    persantage: 48 + "%"
-                },
-                {
-                    name: "java",
-                    img: require("../images/java.png"),
-                    persantage: 40 + "%"
+                    persantage: 60 + "%"
                 },
                 {
                     name: "html",
                     img: require("../images/html.png"),
-                    persantage: 78 + "%"
+                    persantage: 85 + "%"
                 },
                 {
                     name: "css",
@@ -44,7 +34,7 @@ class Skills extends Component {
                 {
                     name: "MEAN",
                     img: require("../images/MEAN.png"),
-                    persantage: 85 + "%"
+                    persantage: 70 + "%"
                 },
             ]
         }
